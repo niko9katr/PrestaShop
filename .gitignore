@@ -5,7 +5,7 @@
 npm-debug.log.*
 .sass-cache/
 
-# Cache
+# Cache loolloo
 /cache/*
 !/cache/.htaccess
 !/cache/cachefs/index.php
