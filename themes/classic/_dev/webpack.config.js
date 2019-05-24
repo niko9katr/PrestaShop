@@ -29,7 +29,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 let config = {
   entry: {
     main: [
-      './js/theme.js',
+      //'./js/theme.js',
       './css/theme.scss'
     ]
   },
@@ -50,9 +50,7 @@ let config = {
           use: [
             {
               loader: 'css-loader',
-              options: {
-                minimize: true
-              }
+            
             },
             'postcss-loader',
             'sass-loader'

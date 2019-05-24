@@ -2,3 +2,32 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+
+/*images */
+.miniature{ 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; /*redimensionne les images sans les pixeliser */
+}
+.img {
+	border-style: none
+}
+
+#custom-text{
+    padding-bottom: 3.125rem;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-bottom: 3.5rem;
+    padding: 3.125rem;
+    text-align: center;
+}
+.aLaUne{
+	background-color: #515151;
+	color: #fff;
+	border-radius: 30px;
+    padding: 20px;
+}
+#custom-text p {
+    color: #fff
+
+}
