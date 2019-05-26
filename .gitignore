@@ -1,5 +1,5 @@
 # Cache, temp and personal files
-
+themes/classic/assets/*
 /.htaccess
 *.log
 npm-debug.log.*
@@ -113,7 +113,7 @@ app/config/config.php
 
 # Themes, modules and overrides
 
-modules/*
+
 override/*
 themes/*/
 !themes/classic

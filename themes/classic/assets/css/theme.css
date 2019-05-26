@@ -8350,6 +8350,7 @@ body#checkout {
     #header .menu > ul > li {
       display: inline-block; }
   #header .header-nav {
+    background: #A9D1FF;
     border-bottom: #F1F1F1 2px solid;
     max-height: 50px;
     margin-bottom: 30px; }
