@@ -9,7 +9,7 @@
     font-weight: 400;
   }
   a.dropdown-submenu {
-    color: $gray-darker;
+    color: $grisFoncer;
     text-transform: uppercase;
     font-weight: 600;
   }
@@ -18,7 +18,7 @@
     padding: 0.1875rem $small-space 0.375rem;
     &:hover {
       #header & {
-        color: $brand-primary;
+        color: $grisFoncer;
         text-decoration: none;
       }
     }
@@ -63,6 +63,7 @@
     &[data-depth="0"] {
       li {
         &:hover {
+          color:$grisFoncer;
           .sub-menu {
             display: block !important;
           }
@@ -76,7 +77,7 @@
   padding: 15px;
   background: white;
   #top-menu {
-    margin-bottom: 0;
+    margin-bottom: 0.625rem;
   }
   .top-menu {
     color: $gray-darker;

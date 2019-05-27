@@ -6,7 +6,7 @@ modules/ps_specials
 npm-debug.log.*
 .sass-cache/
 
-# Cache loolloo
+# Cache 
 /cache/*
 !/cache/.htaccess
 !/cache/cachefs/index.php

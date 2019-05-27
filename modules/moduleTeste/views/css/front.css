@@ -27,8 +27,9 @@
 */
 /*images */
 .miniature{ 
-    width: 150px; 
-    height: 150px; 
+    margin-bottom: 15px;
+    width: 250px; 
+    height: 250px; 
     object-fit: cover; /*redimensionne les images sans les pixeliser */
 }
 .img {
@@ -44,12 +45,19 @@
     text-align: center;
 }
 .aLaUne{
-	background-color: #515151;
+	background-color: #ebebeb;
 	color: #fff;
 	border-radius: 30px;
     padding: 20px;
 }
 #custom-text p {
-    color: #fff
-
+    color: #515151;
+}
+#titreALAUne{
+    margin-bottom: 40px;
+    color :#3579e8;
+    font-size: 240px;
+}
+h3{
+    color:#2d2d2d;
 }
