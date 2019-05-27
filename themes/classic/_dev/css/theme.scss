@@ -27,9 +27,13 @@
 @import "components/errors";
 @import "components/customization-modal";
 @import "components/sitemap";
+//variables
+
+$primary:blue;
+
 /*** HEADER ***/
 #header {
-  background: white;
+  background: rgb(255, 255, 255);
   color: $gray;
   .logo {
     max-width: 100%;
@@ -50,6 +54,7 @@
     }
   }
   .header-nav {
+    background:#A9D1FF;
     border-bottom: $gray-light 2px solid;
     max-height: 50px;
     margin-bottom: 30px;
@@ -61,6 +66,7 @@
         line-height: 50px;
       }
     }
+    
     .right-nav {
       display: flex;
       flex-wrap: nowrap;
@@ -78,6 +84,9 @@
       white-space: nowrap;
       .account {
         margin-left: $small-space;
+      }
+      div:hover{
+        
       }
     }
     .language-selector {
