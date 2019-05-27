@@ -44,11 +44,13 @@
     <div class="row">
       <div class="col-md-12">
         <p class="text-sm-center">
+        {*
           {block name='copyright_link'}
             <a class="_blank" href="http://www.prestashop.com" target="_blank">
               {l s='%copyright% %year% - Ecommerce software by %prestashop%' sprintf=['%prestashop%' => 'PrestaShop™', '%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'}
             </a>
           {/block}
+        *}
         </p>
       </div>
     </div>

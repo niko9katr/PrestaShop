@@ -58,7 +58,7 @@
         {l
           s='Email us: [1]%email%[/1]'
           sprintf=[
-            '[1]' => '<a href="mailto:'|cat:$contact_infos.email|cat:'" class="dropdown">',
+            '[1]' => '<a href="mailto:'|cat:$contact_infos.email|cat:'" class="dropdown aMettreEnBlanc">',
             '[/1]' => '</a>',
             '%email%' => $contact_infos.email
           ]

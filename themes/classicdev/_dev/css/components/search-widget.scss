@@ -6,6 +6,8 @@
   .search-widget {
     form {
       input[type="text"] {
+        padding: 8px;
+        border-radius: 30px;
         min-width: inherit;
         width: 100%;
       }
@@ -38,6 +40,7 @@
 @include media-breakpoint-down(sm) {
   .header-top {
     .search-widget {
+      padding: 8px;
       float: none;
       form {
         margin: 0 auto;

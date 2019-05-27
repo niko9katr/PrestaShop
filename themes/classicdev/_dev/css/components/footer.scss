@@ -25,20 +25,21 @@
   margin-bottom: 0.625rem;
 }
 .block-contact {
-  color: $gray;
+  color: $white;
   .block-contact-title{
-    color:$gray-darker;
+    color: $white;
   }
 }
 .linklist {
   .blockcms-title a {
-    color:$gray-darker;
+    color: $white;
   }
 }
 .account-list a {
-  color: $gray;
+  color: $white;
   &:hover {
     color: $brand-primary;
+    
   }
 }
 .blockcms-title,
@@ -58,7 +59,7 @@
     li {
       height: 2.5rem;
       width: 2.5rem;
-      background-color: $gray-light;
+      background-color: $white;
       background-repeat: no-repeat;
       display: inline-block;
       margin: 0.125rem;
@@ -74,6 +75,7 @@
       
       &:hover {
         background-color: $brand-primary;
+  
       }
       a {
         display: block;
@@ -83,6 +85,7 @@
         overflow: hidden;
         &:hover {
           color: transparent;
+      
         }
       }
     }
@@ -135,7 +138,7 @@
 }
 #block_myaccount_infos{
   .myaccount-title a{
-    color:$gray-darker;
+    color:$white;
   }
 }
 .pinterest {
@@ -158,6 +161,7 @@
   background-image: url(../img/instagram.svg);
 }
 .footer-container {
+  background-color: $grisPerso;
   margin-top: $medium-space;
   padding-top: $medium-space;
   overflow: hidden;
@@ -166,11 +170,12 @@
     margin-bottom: 0.3125rem;
   }
   li a {
-    color: $gray;
+    color: $white;
     cursor: pointer;
     font-size: $font-size-sm;
     &:hover {
       color: $brand-primary;
+      text-decoration: underline;
     }
   }
 }
@@ -199,14 +204,14 @@
         font-size: 1rem;
       }
       ul {
-        background-color: $gray-lighter;
+        background-color: $white;
         margin-bottom: 0;
         > li {
           padding: 0.625rem;
           border-bottom: 1px solid white;
           font-weight: bold;
           a {
-            color: $gray-darker;
+            color: $white;
           }
         }
       }
@@ -248,4 +253,9 @@
   .block-contact {
     padding-left: 1.5rem;
   }
+}
+
+/*MODIFS PERSOS*/
+.aMettreEnBlanc{
+  color: #fff;
 }
